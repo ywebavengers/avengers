@@ -1,0 +1,49 @@
+* {
+    margin: 0;
+    padding: 0;
+    background-color: #02202b;
+    font-size: 1em;
+    font-family: 'Roboto', sans-serif;
+    color: #fff;
+}
+
+.navbar-nav {
+    width: 100%;
+    display: flex;
+    justify-content: end;
+}
+
+.title {
+    font-family: 'Bangers', serif;
+    font-size: 2em;
+}
+
+h1 {
+    font-family: 'Bangers', serif;
+    font-size: 3em;
+    color: #2b899e;
+}
+
+#turq {
+    color: #2b899e;
+}
+
+#yellow {
+    color:#dfd6b6;
+}
+
+#orange {
+    color: #e46a15;
+}
+
+#pblue {
+    color: #a0d1f5;
+}
+
+#gray {
+    color: #afb4a5;
+}
+
+#brown {
+    color: #6b594c;
+}
