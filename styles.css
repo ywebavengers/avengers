@@ -204,4 +204,16 @@ footer a {
 @media (max-width: 500px) {
     .foot {flex-direction: column;}
     footer {flex-direction: column;}
+    #one {
+        width: 100%;
+    }
+    #two {
+        width: 100%;
+    }
+    #three {
+        width: 100%;
+    }
+    #four {
+        width: 100%;
+    }
   }
