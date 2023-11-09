@@ -1,49 +1,170 @@
 * {
-    margin: 0;
-    padding: 0;
-    background-color: #02202b;
-    font-size: 1em;
-    font-family: 'Roboto', sans-serif;
-    color: #fff;
+  margin: 0;
+  padding: 0;
+  background-color: #02202b;
+  font-size: 1em;
+  font-family: "Roboto", sans-serif;
+  color: #fff;
+  list-style-type: none;
 }
 
-.navbar-nav {
-    width: 100%;
-    display: flex;
-    justify-content: end;
+body {
+  background-color: #02202b;
 }
 
-.title {
-    font-family: 'Bangers', serif;
-    font-size: 2em;
-}
-
-h1 {
-    font-family: 'Bangers', serif;
-    font-size: 3em;
-    color: #2b899e;
-}
-
-#turq {
-    color: #2b899e;
-}
-
-#yellow {
-    color:#dfd6b6;
-}
-
-#orange {
-    color: #e46a15;
-}
-
-#pblue {
+.navbar a {
     color: #a0d1f5;
 }
 
+.navbar a:hover {
+    color: #e46a15;
+}
+
+.navbar-nav {
+  width: 100%;
+  display: flex;
+  justify-content: end;
+}
+
+.navbar-brand, .title {
+  font-family: "Bangers", serif;
+  font-size: large;
+}
+
+.navbar {
+    border-bottom: 1px dotted #afb4a5;
+}
+
+h1 {
+  font-family: "Bangers", serif;
+  font-size: 3em;
+  color: #2b899e;
+}
+
+h2,
+h3 {
+  font-family: "Bangers", serif;
+}
+
+#turq {
+  color: #2b899e;
+}
+
+#yellow {
+  color: #dfd6b6;
+}
+
+#orange {
+  color: #e46a15;
+}
+
+#pblue {
+  color: #a0d1f5;
+}
+
 #gray {
-    color: #afb4a5;
+  color: #afb4a5;
 }
 
 #brown {
-    color: #6b594c;
+  color: #6b594c;
+}
+
+footer {
+  width: 100%;
+  display: flex;
+  background-color: #02202b;
+  color: #fff;
+  padding: 15px;
+  justify-content: space-around;
+}
+
+.foot {
+  width: 100%;
+  display: flex;
+  gap: 1em;
+  background-color: #02202b;
+  padding: 20px;
+  list-style-type: none;
+  border-bottom: 1px dotted #afb4a5;
+  border-top: 1px dotted #afb4a5;
+  opacity: 0.95;
+  line-height: 2em;
+}
+
+.foot ul li {
+  list-style-type: none;
+}
+
+.foot a {
+  color: #a0d1f5;
+}
+
+.container {
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+  gap: 1em;
+  background-color: #02202b;
+}
+
+#one {
+  width: 25%;
+}
+
+#two {
+  width: 25%;
+}
+
+#three {
+  width: 25%;
+}
+
+#four {
+  width: 25%;
+  line-height: 1.2em;
+}
+
+#four p {
+    color: #dfd6b6;
+}
+
+a:link {
+  color: #a0d1f5;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+a:hover {
+  color: #e46a15;
+  cursor: pointer;
+}
+
+#contact {
+    margin: 0;
+    background-image: url(avengers3.jpg);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    opacity: 0.85;
+    width: 100%;
+    height: 700px;
+}
+
+#social {
+  justify-content: start;
+  min-width: 70px;
+}
+
+#social ul {
+  display: flex;
+  flex-direction: row;
+  gap: 10px;
+}
+
+footer p {
+    color: #2b899e;
+}
+
+footer a {
+    color: #a0d1f5;
 }
