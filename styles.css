@@ -200,3 +200,8 @@ footer p {
 footer a {
     color: #a0d1f5;
 }
+
+@media (max-width: 500px) {
+    .foot {flex-direction: column;}
+    footer {flex-direction: column;}
+  }
