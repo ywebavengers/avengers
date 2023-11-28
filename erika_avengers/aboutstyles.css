@@ -1,0 +1,347 @@
+* {
+  /* background-color: #02202b; */
+  font-size: 1em;
+  font-family: "Roboto", sans-serif;
+  /* color: #540202; */
+}
+
+.navbar-nav {
+  width: 100%;
+  display: flex;
+  justify-content: end;
+}
+nav {
+  background-color: #02202b;
+}
+.title {
+  font-family: "Bangers", serif;
+  font-size: 2em;
+}
+
+h1 {
+  font-family: "Bangers", serif;
+  font-size: 3em;
+}
+/* Erika's About US page starts here ------------------------------------------------------*/
+.about-header {
+  background-image: url("aboutimages/bg1.jpg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 650px;
+  color: rgba(231, 4, 4, 0.897);
+  border: 1px solid black;
+}
+p.about-p1 {
+  font-size: 1.5rem;
+  font-weight: bold;
+  text-shadow: 1px 1px 3px black;
+}
+p.about-p2 {
+  background-color: rgba(0, 0, 0, 0.662);
+  font-style: italic;
+  color: #fff;
+}
+.about-header {
+  display: flex;
+  justify-content: space-between;
+}
+.about-header-img {
+  width: auto;
+  height: 25%;
+  margin-left: 10px;
+  margin-top: 10px;
+  box-shadow: 0 5px 10px 0 rgba(43, 41, 41, 0.2),
+    0 10px 30px 0 rgba(231, 230, 230, 0.19);
+}
+.about-header-title {
+  width: 45%;
+}
+.header-text-end {
+  margin-bottom: 50px;
+}
+.about-h1 {
+  line-height: 1.6;
+  text-shadow: 2px 2px 5px black;
+}
+
+img.about-clockgif {
+  display: block;
+  margin: auto;
+}
+button.aboutmore {
+  color: white;
+  margin-top: 20px;
+  background-color: black;
+
+  border-radius: 10px;
+  padding: 5px 10px;
+}
+button.aboutmore:hover {
+  background-color: rgba(207, 11, 11, 0.7);
+}
+div.about-container2 {
+  background-image: url("aboutimages/sandbg.jpg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  color: #a0eafbbc;
+}
+
+h2 > span {
+  transition: translateY(-50%);
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  /* text-align: center; */
+  float: center;
+  font-family: sans-serif;
+  font-style: italic;
+  font-size: 1.6em;
+  text-transform: uppercase;
+  letter-spacing: 5px;
+  background: linear-gradient(#cbeef6, #0e7086, #f0f7f8);
+  -webkit-background-clip: text;
+  color: transparent;
+  font-weight: bolder;
+}
+h2 > span:nth-child(1) {
+  z-index: 2;
+}
+h2 > span:nth-child(2) {
+  z-index: 1;
+  text-shadow: 1px 1px 0 #262626, 2px 2px 0 #262626, 3px 3px 0 #262626,
+    4px 4px 0 #262626, 5px 5px 0 #262626, 1px 1px 0 #262626,
+    6px 20px 20px rgba(0, 0, 0, 1), -1px -1px 0 #fff;
+}
+
+.history-p1 {
+  padding-top: 20px;
+  width: 80%;
+  margin: auto;
+}
+
+.history-h {
+  padding-top: 10px;
+  width: 80%;
+  margin: auto;
+}
+
+p.history-p2 {
+  font-size: medium;
+  font-family: sans-serif;
+  font-style: italic;
+  background-color: rgba(0, 0, 0, 0.47);
+  width: 80%;
+  margin: auto;
+  padding-top: 15px;
+  padding-bottom: 0.5em;
+  margin-bottom: 1.2em;
+}
+
+button.about-contact {
+  color: rgb(248, 243, 243);
+  /* margin-top: -5px; */
+  background-color: #054a5ab9;
+  border: 1px solid rgb(248, 243, 243);
+  border-radius: 10px;
+  padding: 5px 10px;
+  display: block;
+  font-size: 20px;
+  /* font-weight: bold; */
+  margin-left: auto;
+  margin-right: auto;
+  width: 200px;
+}
+button.about-contact:hover {
+  color: rgb(248, 243, 243);
+  /* margin-top: -5px; */
+  background-color: #011418b9;
+}
+
+div.about-container3 {
+  background-image: url("aboutimages/bg2.jpg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  padding-top: 1rem;
+  color: white;
+  height: 650px;
+  /* rgba(252, 193, 15) */
+  vertical-align: middle;
+  display: flex;
+  flex-direction: column;
+}
+
+.who-h,
+.who-p,
+.back-title {
+  width: 80%;
+  margin: auto;
+  filter: brightness(130%);
+
+  text-shadow: 0 0 15px #fff, 0 0 18px #fdcb03, 0 0 20px #fdcb03,
+    0 0 25px #fdcb03, 0 0 30px #fdcb03, 0 0 35px #fdcb03;
+}
+.back-name {
+  width: 90%;
+  margin: auto;
+  filter: brightness(130%);
+
+  text-shadow: 0 0 15px #fff, 0 0 18px #fdcb03, 0 0 20px #fdcb03,
+    0 0 25px #fdcb03, 0 0 30px #fdcb03, 0 0 35px #fdcb03;
+}
+.card-row {
+  width: 90%;
+  margin: auto;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.card-col {
+  flex-basis: 30%;
+  overflow: hidden;
+}
+.who-card {
+  width: 240px;
+  height: 300px;
+  /* margin: auto; */
+  perspective: 1000px;
+  cursor: pointer;
+}
+
+.inner-box {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  text-align: center;
+  border-radius: 10px;
+  transition: transform 0.6s;
+  transform-style: preserve-3d;
+}
+
+.fa {
+  padding: 2px;
+  font-size: 10px;
+  width: 15px;
+  text-align: center;
+  text-decoration: none;
+  background: #1d3568;
+  color: white;
+}
+
+.fa:hover {
+  opacity: 0.6;
+}
+
+.who-card-front,
+.who-card-back {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  backface-visibility: hidden;
+  border-radius: 10px;
+}
+.who-card-front {
+  background-position: center;
+  background-size: cover;
+}
+.who-front-1 {
+  background-image: url(aboutimages/ironman.jpg);
+}
+.who-front-2 {
+  background-image: url(aboutimages/wanda.jpeg);
+}
+.who-front-3 {
+  background-image: url(aboutimages/DRstrange1.jpg);
+}
+.who-front-4 {
+  background-image: url(aboutimages/black-panther.png);
+}
+.who-front-5 {
+  background-image: url(aboutimages/black-widow3.jpg);
+}
+.who-card-back {
+  background-image: url(aboutimages/black-widow3.jpg);
+  background-position: center;
+  background-size: cover;
+  transform: rotateY(180deg);
+}
+.who-card:hover .inner-box {
+  transform: rotateY(-180deg);
+}
+.back-footer {
+  width: 80%;
+  margin: 180px auto;
+}
+.back-title {
+  font-size: 0.7rem;
+}
+button.who-contact {
+  color: rgb(248, 243, 243);
+  background-color: #054a5ab9;
+  border: 1px solid rgb(248, 243, 243);
+  border-radius: 5px;
+  padding: 2px 5px;
+  display: block;
+  margin: 0 auto;
+  font-size: 12px;
+  width: 80px;
+}
+.who-contact:hover {
+  opacity: 0.7;
+}
+
+@media screen and (max-width: 768px) {
+  .about-header-img {
+    margin: 0 auto;
+  }
+  .card-row {
+    flex-direction: column;
+  }
+  .card-col {
+    margin: 5px 0;
+  }
+  div.about-container3 {
+    background-image: url("aboutimages/bg9.jpg");
+    height: 1680px;
+  }
+
+  .about-clockgif {
+    width: 200px;
+  }
+
+  .about-header {
+    flex-direction: column;
+  }
+
+  .about-header-img {
+    width: 15%;
+    height: auto;
+  }
+
+  .about-header-title {
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .who-h,
+  .who-p {
+    background: -webkit-linear-gradient(#043fe0,#f82323);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-weight: bolder;
+    text-shadow: none;
+  }
+  .who-h{
+    font-size: xx-large;
+  }
+  .who-p{
+    font-size: large;
+  }
+  .back-name,
+  .back-title {
+    color: lightgrey;
+    text-shadow: none;
+  }
+}
